@@ -1,17 +1,10 @@
 <script>
-  import Photos from "$lib/photos/Gallery.svelte";
+  import Gallery from "$lib/photos/Gallery.svelte";
+  import Photo from "$lib/photos/Photo.svelte";
   import { photos } from "$lib/photos";
 </script>
 
-<style>
-  figure {
-    margin-bottom: 1rem;
-  }
-</style>
-
-<figure>
-  <img alt={photos.familyTree.alt} src={photos.familyTree.src} />
-</figure>
+<Photo alt={photos.familyTree.alt} src={photos.familyTree.src} />
 
 <h2>Family History</h2>
 
@@ -35,4 +28,4 @@
 
 <p class='script'>P.S. Click the Images to download them!</p>
 
-<Photos />
+<Gallery />

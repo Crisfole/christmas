@@ -3,13 +3,6 @@
   import { photos } from "$lib/photos";
 </script>
 
-<style>
-  figure {
-    border: 2px solid var(--highlight-color);
-    margin-bottom: 1rem;
-  }
-</style>
-
 <Photo src={photos.spices.src} alt={photos.spices.alt} />
 
 <h2>Flavor</h2>
