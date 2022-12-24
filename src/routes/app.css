@@ -1,0 +1,50 @@
+@import "@fontsource/caveat";
+@import "@fontsource/inter";
+
+:root {
+  --green-deg: 136deg;
+  --red-deg: 5deg;
+
+  --background-color: hsl(var(--green-deg) 95% 6%);
+  --highlight-color: hsl(var(--green-deg) 100% 35%);
+  --contrast-color: hsl(var(--red-deg) 95% 40%);
+  --text-color: hsl(var(--red-deg) 100% 94%);
+}
+html, body {
+  width: 100vw;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+body > div {
+  display: contents;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Caveat", cursive;
+  color: var(--contrast-color);
+  margin: 0;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+figure {
+  max-width: 100%;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}

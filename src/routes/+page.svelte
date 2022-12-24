@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<style>
+  h2 {
+    margin-bottom: .5em;
+  }
+</style>
+
+<h2>With Love,</h2>
+<h3>The Pfohls</h3>
